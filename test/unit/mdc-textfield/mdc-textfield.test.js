@@ -27,6 +27,7 @@ const {cssClasses} = MDCTextfieldFoundation;
 const getFixture = () => bel`
   <div class="mdc-textfield">
     <input type="text" class="mdc-textfield__input" id="my-textfield">
+    <div class="mdc-textfield__bottom-line"></div>
     <label class="mdc-textfield__label" for="my-textfield">My Label</label>
   </div>
 `;
